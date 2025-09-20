@@ -20,7 +20,6 @@
   }
 }
 ```
-
 3.  Save the `package.json` file.
 4.  Commit and push this change to your GitHub repository.
     ```bash
