@@ -1,0 +1,114 @@
+.student-card {
+  width: 100%;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.student-id {
+  font-size: 1.5rem;
+  color: gray;
+}
+.student-card-color {
+  color: #a7a7a7 !important;
+  font-weight: bold !important;
+  text-align: left;
+}
+.student-about-desc {
+  min-height: 130px;
+}
+
+.student-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.student-name {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.student-desc {
+  color: gray;
+}
+
+.student-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.action-icon {
+  font-size: 34px;
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.student-info {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px 0;
+}
+
+.student-info span {
+  font-weight: bold;
+  color: #333;
+}
+
+.classmates {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.classmates-list {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.classmate-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+  margin-left: -10px;
+}
+
+.classmate-image:first-child {
+  margin-left: 0;
+}
+
+.more-classmates {
+  font-size: 20px;
+  color: gray;
+  margin-left: 5px;
+}
+
+.more-classmates {
+  /* font-size: 14px; */
+  color: #519cda;
+}
+
+
+.student-card-details .student-icons>svg{
+background-color: #EFF3FA;
+margin: 1rem;
+border-radius: 8px;
+font-size: 3.5rem;
+padding: 0.5rem;
+}
+

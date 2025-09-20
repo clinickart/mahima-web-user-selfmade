@@ -1,0 +1,20 @@
+.success-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  color: #1a85ff;
+  font-weight: bold;
+}
+
+.success-modal-icon {
+  font-size: 7.1rem;
+  margin: 3rem;
+}
+
+.success-modal-content p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

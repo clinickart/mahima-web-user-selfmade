@@ -1,0 +1,16 @@
+.navbarBackgroundImage {
+  background-image: url("./assets/images/Navbar/backgroundImage.png");
+}
+
+.homepageReviewBottomBorder {
+  border-bottom: 6px solid; /* Adjust thickness */
+  border-image: linear-gradient(90deg, #f4e6b3 0%, #f9f9f9 40%, #a7d9a2 80%, #bcd98b 100%);
+  border-image-slice: 1;
+}
+
+.homePageLoginBackgroundImage {
+  background-image: url("./assets/images/Pages/HomePage/GiftCard/1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
